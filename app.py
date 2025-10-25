@@ -136,3 +136,4 @@ def extract_slots_api(user_query: UserQuery):
         return {"success": True, "slots": slots}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
